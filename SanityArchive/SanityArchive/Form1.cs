@@ -16,8 +16,6 @@ namespace SanityArchive
     public partial class fileExp : Form
     {
 
-        
-
         public fileExp()
         {
             InitializeComponent();
@@ -172,5 +170,16 @@ namespace SanityArchive
             { IsBackground = true };
             thread.Start();
         }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            
+                    txtPath.Text = webBrowser1.Url.ToString();
+                
+
+
+        }
+
+        
     }
 }

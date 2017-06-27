@@ -7,3 +7,14 @@ E:\SanityArchive\SanityArchive\SanityArchive\obj\Debug\SanityArchive.Properties.
 E:\SanityArchive\SanityArchive\SanityArchive\obj\Debug\SanityArchive.csproj.GenerateResource.Cache
 E:\SanityArchive\SanityArchive\SanityArchive\obj\Debug\SanityArchive.exe
 E:\SanityArchive\SanityArchive\SanityArchive\obj\Debug\SanityArchive.pdb
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Debug\SanityArchive.exe.config
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Debug\SanityArchive.exe
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Debug\SanityArchive.pdb
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.csprojResolveAssemblyReference.cache
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.fileExp.resources
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.Properties.Resources.resources
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.csproj.GenerateResource.Cache
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.exe
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.pdb
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Debug\DotNetZip.dll
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Debug\DotNetZip.xml

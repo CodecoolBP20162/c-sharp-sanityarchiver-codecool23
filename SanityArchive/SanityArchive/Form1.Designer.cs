@@ -55,12 +55,12 @@
             // btnOpen
             // 
             this.btnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOpen.Location = new System.Drawing.Point(366, 15);
+            this.btnOpen.Image = ((System.Drawing.Image)(resources.GetObject("btnOpen.Image")));
+            this.btnOpen.Location = new System.Drawing.Point(366, 5);
             this.btnOpen.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(54, 23);
+            this.btnOpen.Size = new System.Drawing.Size(54, 33);
             this.btnOpen.TabIndex = 2;
-            this.btnOpen.Text = "Open";
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
@@ -87,24 +87,24 @@
             // btnBack2
             // 
             this.btnBack2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnBack2.Location = new System.Drawing.Point(428, 14);
+            this.btnBack2.Image = ((System.Drawing.Image)(resources.GetObject("btnBack2.Image")));
+            this.btnBack2.Location = new System.Drawing.Point(428, 5);
             this.btnBack2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBack2.Name = "btnBack2";
-            this.btnBack2.Size = new System.Drawing.Size(32, 23);
+            this.btnBack2.Size = new System.Drawing.Size(32, 32);
             this.btnBack2.TabIndex = 7;
-            this.btnBack2.Text = "<<";
             this.btnBack2.UseVisualStyleBackColor = true;
             this.btnBack2.Click += new System.EventHandler(this.btnBack2_Click);
             // 
             // btnForward2
             // 
             this.btnForward2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnForward2.Location = new System.Drawing.Point(463, 14);
+            this.btnForward2.Image = ((System.Drawing.Image)(resources.GetObject("btnForward2.Image")));
+            this.btnForward2.Location = new System.Drawing.Point(463, 5);
             this.btnForward2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnForward2.Name = "btnForward2";
-            this.btnForward2.Size = new System.Drawing.Size(32, 23);
+            this.btnForward2.Size = new System.Drawing.Size(32, 32);
             this.btnForward2.TabIndex = 8;
-            this.btnForward2.Text = ">>";
             this.btnForward2.UseVisualStyleBackColor = true;
             this.btnForward2.Click += new System.EventHandler(this.btnForward2_Click);
             // 
@@ -132,12 +132,12 @@
             // btnOpen2
             // 
             this.btnOpen2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOpen2.Location = new System.Drawing.Point(821, 12);
+            this.btnOpen2.Image = ((System.Drawing.Image)(resources.GetObject("btnOpen2.Image")));
+            this.btnOpen2.Location = new System.Drawing.Point(821, 5);
             this.btnOpen2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnOpen2.Name = "btnOpen2";
-            this.btnOpen2.Size = new System.Drawing.Size(54, 23);
+            this.btnOpen2.Size = new System.Drawing.Size(54, 33);
             this.btnOpen2.TabIndex = 11;
-            this.btnOpen2.Text = "Open";
             this.btnOpen2.UseVisualStyleBackColor = true;
             this.btnOpen2.Click += new System.EventHandler(this.btnOpen2_Click);
             // 
@@ -164,23 +164,23 @@
             // 
             // btnForward
             // 
-            this.btnForward.Location = new System.Drawing.Point(45, 15);
+            this.btnForward.Image = ((System.Drawing.Image)(resources.GetObject("btnForward.Image")));
+            this.btnForward.Location = new System.Drawing.Point(45, 5);
             this.btnForward.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnForward.Name = "btnForward";
-            this.btnForward.Size = new System.Drawing.Size(32, 23);
+            this.btnForward.Size = new System.Drawing.Size(32, 33);
             this.btnForward.TabIndex = 1;
-            this.btnForward.Text = ">>";
             this.btnForward.UseVisualStyleBackColor = true;
             this.btnForward.Click += new System.EventHandler(this.btnForward_Click);
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(10, 15);
+            this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
+            this.btnBack.Location = new System.Drawing.Point(10, 5);
             this.btnBack.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(32, 23);
+            this.btnBack.Size = new System.Drawing.Size(32, 33);
             this.btnBack.TabIndex = 0;
-            this.btnBack.Text = "<<";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 

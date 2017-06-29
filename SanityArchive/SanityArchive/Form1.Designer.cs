@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fileExp));
             this.btnOpen = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
@@ -65,26 +66,23 @@
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.webBrowser1.Location = new System.Drawing.Point(12, 46);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(408, 349);
             this.webBrowser1.TabIndex = 5;
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
-            
             // 
             // webBrowser2
             // 
-            this.webBrowser2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.webBrowser2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.webBrowser2.Location = new System.Drawing.Point(430, 46);
             this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser2.Name = "webBrowser2";
             this.webBrowser2.Size = new System.Drawing.Size(445, 349);
             this.webBrowser2.TabIndex = 6;
+            this.webBrowser2.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser2_DocumentCompleted);
             // 
             // btnBack2
             // 
@@ -188,6 +186,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.Location = new System.Drawing.Point(201, 402);
@@ -198,6 +197,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.Location = new System.Drawing.Point(201, 436);
@@ -208,6 +208,7 @@
             // 
             // txtFolder
             // 
+            this.txtFolder.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtFolder.Location = new System.Drawing.Point(266, 401);
             this.txtFolder.Name = "txtFolder";
             this.txtFolder.Size = new System.Drawing.Size(278, 20);
@@ -215,6 +216,7 @@
             // 
             // txtFileName
             // 
+            this.txtFileName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtFileName.Location = new System.Drawing.Point(266, 435);
             this.txtFileName.Name = "txtFileName";
             this.txtFileName.Size = new System.Drawing.Size(278, 20);
@@ -222,6 +224,7 @@
             // 
             // btnFolder
             // 
+            this.btnFolder.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnFolder.Location = new System.Drawing.Point(553, 399);
             this.btnFolder.Name = "btnFolder";
             this.btnFolder.Size = new System.Drawing.Size(30, 23);
@@ -232,6 +235,7 @@
             // 
             // btnFileName
             // 
+            this.btnFileName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnFileName.Location = new System.Drawing.Point(553, 433);
             this.btnFileName.Name = "btnFileName";
             this.btnFileName.Size = new System.Drawing.Size(30, 23);
@@ -242,6 +246,7 @@
             // 
             // btnZipFolder
             // 
+            this.btnZipFolder.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnZipFolder.Location = new System.Drawing.Point(589, 399);
             this.btnZipFolder.Name = "btnZipFolder";
             this.btnZipFolder.Size = new System.Drawing.Size(75, 23);
@@ -252,6 +257,7 @@
             // 
             // btnZipFile
             // 
+            this.btnZipFile.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnZipFile.Location = new System.Drawing.Point(589, 433);
             this.btnZipFile.Name = "btnZipFile";
             this.btnZipFile.Size = new System.Drawing.Size(75, 23);
@@ -262,6 +268,7 @@
             // 
             // progressBar
             // 
+            this.progressBar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.progressBar.Location = new System.Drawing.Point(266, 470);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(278, 23);
@@ -293,6 +300,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnForward2);
             this.Controls.Add(this.btnBack2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "fileExp";
             this.Text = "SanityArchive";

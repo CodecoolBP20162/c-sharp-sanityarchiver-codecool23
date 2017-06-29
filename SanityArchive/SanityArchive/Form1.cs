@@ -174,12 +174,18 @@ namespace SanityArchive
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
             
-                    txtPath.Text = webBrowser1.Url.ToString();
+                string path = webBrowser1.Url.ToString();
+                txtPath.Text = path.Substring(8).Replace("/", "\\");
+                    
                 
-
+            
 
         }
 
-        
+        private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            string path2 = webBrowser2.Url.ToString();
+            txtPath2.Text = path2.Substring(8).Replace("/", "\\"); 
+        }
     }
 }

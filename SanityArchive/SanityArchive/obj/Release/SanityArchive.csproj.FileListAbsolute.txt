@@ -1,0 +1,10 @@
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Release\SanityArchive.exe.config
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Release\SanityArchive.exe
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Release\SanityArchive.pdb
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Release\DotNetZip.dll
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\bin\Release\DotNetZip.xml
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Release\SanityArchive.fileExp.resources
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Release\SanityArchive.Properties.Resources.resources
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Release\SanityArchive.csproj.GenerateResource.Cache
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Release\SanityArchive.exe
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Release\SanityArchive.pdb

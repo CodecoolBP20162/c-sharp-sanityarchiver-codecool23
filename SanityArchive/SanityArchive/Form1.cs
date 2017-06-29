@@ -176,10 +176,6 @@ namespace SanityArchive
             
                 string path = webBrowser1.Url.ToString();
                 txtPath.Text = path.Substring(8).Replace("/", "\\");
-                    
-                
-            
-
         }
 
         private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)

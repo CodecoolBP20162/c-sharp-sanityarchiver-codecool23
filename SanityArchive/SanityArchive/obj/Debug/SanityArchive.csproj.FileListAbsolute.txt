@@ -17,3 +17,4 @@ E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\o
 E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.csproj.GenerateResource.Cache
 E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.exe
 E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.pdb
+E:\SanityArchive\c-sharp-sanityarchiver-codecool23\SanityArchive\SanityArchive\obj\Debug\SanityArchive.csprojResolveAssemblyReference.cache

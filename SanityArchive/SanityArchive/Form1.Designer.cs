@@ -247,9 +247,10 @@
             // btnZipFolder
             // 
             this.btnZipFolder.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnZipFolder.Location = new System.Drawing.Point(589, 399);
+            this.btnZipFolder.Image = ((System.Drawing.Image)(resources.GetObject("btnZipFolder.Image")));
+            this.btnZipFolder.Location = new System.Drawing.Point(589, 398);
             this.btnZipFolder.Name = "btnZipFolder";
-            this.btnZipFolder.Size = new System.Drawing.Size(75, 23);
+            this.btnZipFolder.Size = new System.Drawing.Size(42, 28);
             this.btnZipFolder.TabIndex = 19;
             this.btnZipFolder.Text = "ZIP";
             this.btnZipFolder.UseVisualStyleBackColor = true;
@@ -258,9 +259,10 @@
             // btnZipFile
             // 
             this.btnZipFile.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnZipFile.Image = ((System.Drawing.Image)(resources.GetObject("btnZipFile.Image")));
             this.btnZipFile.Location = new System.Drawing.Point(589, 433);
             this.btnZipFile.Name = "btnZipFile";
-            this.btnZipFile.Size = new System.Drawing.Size(75, 23);
+            this.btnZipFile.Size = new System.Drawing.Size(42, 30);
             this.btnZipFile.TabIndex = 20;
             this.btnZipFile.Text = "ZIP";
             this.btnZipFile.UseVisualStyleBackColor = true;
